@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHURRASCÔMETRO</title>
+    <link rel="icon" type="image/png"href="https://img.icons8.com/fluent/2x/barbeque.png">
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <div id="container">
+        <section class="message">
+            <p>DIFICULDADE PARA CALCULAR A QUANTIA DE CARNE E BEBIDAS PARA SEU CHURRAS?</p>
+        </section>
+        <section class="content">
+            <div class="display">
+                <h1>CHURRASCÔMETRO</h1>
+                <input type="number" id="adults" placeholder="QUANTOS ADULTOS?">
+                <input type="number" id="kids" placeholder="QUANTAS CRIANÇAS?">
+                <input type="number" id="duration" placeholder="QUAL A DURAÇÃO DO CHURRAS? (HORAS)">
+                <button onclick="calculate()">CALCULAR</button>
+
+                <div class="result"></div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
